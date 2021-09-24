@@ -23,9 +23,9 @@ The user should specify input parameters described in the table below unless the
 |---------|-----------|
 |_data	  |name of input dataset|
 |_factors |list of categorical variables separated by space |
-|_cat_type |type of analysis for categorical variables i.e., COL for column percentages, ROW for row percentages, PREV for prevalence percentages|
+|_cat_type |type of analysis for categorical variables i.e., `COL` for column percentages, `ROW` for row percentages, `PREV` for prevalence percentages|
 |_contvars	|list of continuous variables separated by space|
-|_cont_type |type of analysis for continuous variables i.e., MEAN or MEDIAN|
+|_cont_type |type of analysis for continuous variables i.e., `MEAN` or `MEDIAN`|
 |_byvar	|name of categorical by-group variable which can have any number of categories/levels|
 |_outcome	|(optional) name of third variable for which cross tabulations are needed e.g., lbxha, for Hepatitis A, but must be specified if prevalence analysis is being performed|
 |_outvalue	|(optional) value label of third variable to compute prevalence cross tabulation but must be specified if _outcome is specified e.g., Positive, in the case of prevalence of Hepatitis A.|
@@ -33,12 +33,12 @@ The user should specify input parameters described in the table below unless the
 |_cluster |(optional) survey clustering variable|
 |_weight	|(optional) survey weighting variable|
 |_domain	|(optional) domain variable for sub-population analysis|
-|_domainvalue|	(optional) value of domain/sub-population of interest (should be numeric). Required if _domain is specified|
+|_domainvalue|	(optional) value of domain/sub-population of interest (should be numeric). Required if `_domain` is specified|
 |_varmethod	|(optional) value for variance estimation method namely Taylor (the default) or replication-based variance estimation methods including JK or BRR|
 |_varmethod_opts|	(optional) options for variance estimation method, e.g., jkcoef=1 df=25 for JK|
-|_rep_weights_values|	(optional) values for REPWEIGHTS statement, but may be specified with replication-based variance estimation method is JK or BRR|
+|_rep_weights_values|	(optional) values for `REPWEIGHTS` statement, but may be specified with replication-based variance estimation method is JK or BRR|
 |_missval_lab|	(optional) value label for missing values. If missing data have a format, it should be provided, otherwise macro assumes the default format “.”|
-|_missval_opts|	(optional) options for handling missing data within proc survey statement, e.g., “MISSING” or “NOMCAR”. If no option is specified all missing observations are excluded from the analysis|
+|_missval_opts|	(optional) options for handling missing data within proc survey statement, e.g., `MISSING` or `NOMCAR`. If no option is specified all missing observations are excluded from the analysis|
 |_est_decimal|number of decimal places for for estimated percentage |
 |_p_value_decimal |number of decimal places for computed p-value |
 |_idvar	|name of unique identifying variable|
@@ -49,7 +49,7 @@ The user should specify input parameters described in the table below unless the
 |_surveyname	|abbreviation for survey/study to be included in the output|
 |_print	|variable for displaying/suppressing the output table on the output window which takes the values (NO=suppress output, YES=show output)|
 
-A sample macro call program, "svy_freqs-analysis-file.sas", is also provided as part of this repository.
+A sample macro call program, `svy_freqs-analysis-file.sas`, is also provided as part of this repository.
 
 A manuscript describing more about the macro contents and usage is available online at: https://www.biorxiv.org/content/10.1101/771303v1
 
