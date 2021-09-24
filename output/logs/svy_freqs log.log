@@ -1,0 +1,179 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+13   
+14   * program start time;
+15   %let datetime_start = %sysfunc(TIME()) ;
+16   %put START TIME: %sysfunc(datetime(),datetime14.);
+START TIME:  16SEP21:11:26
+17   
+18   * load setup file;
+19   %include "&dir.\setup\setup.sas";
+NOTE: Libref NHANES was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: C:\NHANES III\SAS\data\xpt
+NOTE: Libref LIBRARY refers to the same physical library as NHANES.
+NOTE: Libref LIBRARY was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: C:\NHANES III\SAS\data\xpt
+NOTE: Libref OUT refers to the same physical library as LIBRARY.
+NOTE: Libref OUT was successfully assigned as follows: 
+      Engine:        V9 
+      Physical Name: C:\NHANES III\SAS\data\xpt
+NOTE: Libref RAW was successfully assigned as follows: 
+      Engine:        XPORT 
+      Physical Name: C:\NHANES III\SAS\data\xpt\clean_.xpt
+
+NOTE: The file "C:\NHANES III\SAS\data\xpt\clean_nhanes_infile_report.do" is:
+      Filename=C:\NHANES III\SAS\data\xpt\clean_nhanes_infile_report.do,
+      RECFM=V,LRECL=32767,File Size (bytes)=0,
+      Last Modified=16Sep2021:11:26:45,
+      Create Time=04Feb2020:10:03:05
+
+NOTE: 7 records were written to the file "C:\NHANES III\SAS\data\xpt\clean_nhanes_infile_report.do".
+      The minimum record length was 3.
+      The maximum record length was 159.
+NOTE: DATA statement used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.01 seconds
+      
+
+
+NOTE: The infile "C:\NHANES III\SAS\data\xpt\clean_nhanes_formats.txt" is:
+      Filename=C:\NHANES III\SAS\data\xpt\clean_nhanes_formats.txt,
+      RECFM=V,LRECL=32075,File Size (bytes)=8123,
+      Last Modified=23Oct2019:10:07:20,
+      Create Time=04Feb2020:10:03:05
+
+NOTE: 86 records were read from the infile "C:\NHANES III\SAS\data\xpt\clean_nhanes_formats.txt".
+      The minimum record length was 0.
+      The maximum record length was 130.
+NOTE: The data set WORK.FORMATS has 86 observations and 4 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+
+NOTE: Format RIDAGEYRCAT2_ is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDAGEYRCAT2_ has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDBORN4F is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDBORN4F has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDCITZNF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDCITZNF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDEDUC2F is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDEDUC2F has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDMARTLF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDMARTLF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDYRSUSF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMDYRSUSF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMQADFCF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMQADFCF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format DMQMILIZF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format DMQMILIZF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format LBXHAF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format LBXHAF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format RIAGENDRF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format RIAGENDRF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDEXMONF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDEXMONF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDRETH1F is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDRETH1F has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDSTATRF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDSTATRF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format SIAPROXYF is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format SIAPROXYF has been written to LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDAGEYRCAT is already on the library LIBRARY.CLEAN_NHANES.
+NOTE: Format RIDAGEYRCAT has been written to LIBRARY.CLEAN_NHANES.
+
+NOTE: PROCEDURE FORMAT used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.01 seconds
+      
+NOTE: There were 85 observations read from the data set WORK.FORMATS.
+      WHERE fmtname not = ' ';
+
+
+WARNING: Multiple lengths were specified for the variable SEQN by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable SDDSRVYR by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDSTATR by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIAGENDR by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDAGEYR by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDAGEMN by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDRETH1 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDRETH3 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDEXMON by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDEXAGM by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMQMILIZ by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMQADFC by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDBORN4 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDCITZN by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDYRSUS by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDEDUC3 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDEDUC2 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDMARTL by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDEXPRG by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable SIALANG by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable SIAPROXY by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable SIAINTRP by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable FIALANG by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable FIAPROXY by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable FIAINTRP by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable MIALANG by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable MIAPROXY by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable MIAINTRP by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable AIALANGA by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHHSIZ by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDFMSIZ by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHHSZA by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHHSZB by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHHSZE by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHRGND by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHRAGE by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHRBR4 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHREDU by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHRMAR by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable DMDHSEDU by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable SDMVPSU by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable SDMVSTRA by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable INDHHIN2 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable INDFMIN2 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable AGE20_PL by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable LBXHA by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDAGEY1 by input data set(s). This can cause truncation of data.
+WARNING: Multiple lengths were specified for the variable RIDAGEY2 by input data set(s). This can cause truncation of data.
+NOTE: There were 10175 observations read from the data set RAW.CLEAN_.
+NOTE: The data set OUT.CLEAN_NHANES has 10175 observations and 53 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.04 seconds
+      
+
+
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+NOTE: There were 10175 observations read from the data set OUT.CLEAN_NHANES.
+NOTE: PROCEDURE MEANS used (Total process time):
+      real time           0.07 seconds
+      cpu time            0.09 seconds
+      
+
+
+NOTE: PROCEDURE CONTENTS used (Total process time):
+      real time           0.02 seconds
+      cpu time            0.03 seconds
+      
+
+
+NOTE: There were 5 observations read from the data set OUT.CLEAN_NHANES.
+NOTE: PROCEDURE PRINT used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+
