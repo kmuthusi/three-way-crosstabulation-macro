@@ -1,0 +1,190 @@
+data= C:\NHANES III\SAS\data\xpt\clean_nhanes: Compare results with Stata output.                                                                                                                                         11:25 Thursday, September 16, 2021   1
+
+The MEANS Procedure
+
+Variable         Label                                           N            Mean         Std Dev         Minimum         Maximum
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+SEQN             Respondent sequence number                  10175        78644.00         2937.41        73557.00        83731.00
+SDDSRVYR         Data release cycle                          10175       8.0000000               0       8.0000000       8.0000000
+RIDSTATR         Interview/Examination status                10175       1.9644226       0.1852431       1.0000000       2.0000000
+RIAGENDR         Gender                                      10175       1.5083047       0.4999556       1.0000000       2.0000000
+RIDAGEYR         Age in years at screening                   10175      31.4841278      24.4216515               0      80.0000000
+RIDAGEMN         Age in months at screening - 0 to 24 mos    10175     -92.7017199      27.4817303    -100.0000000      24.0000000
+RIDRETH1         Race/Hispanic origin                        10175       3.0918919       1.2633047       1.0000000       5.0000000
+RIDRETH3         Race/Hispanic origin w/ NH Asian            10175       3.2898280       1.6132407       1.0000000       7.0000000
+RIDEXMON         Six month time period                       10175      -2.1028993      18.8101627    -100.0000000       2.0000000
+RIDEXAGM         Age in months at exam - 0 to 19 years       10175     -14.0926781     111.6263062    -100.0000000     239.0000000
+DMQMILIZ         Served active duty in US Armed Forces       10175     -37.2995577      49.5878144    -100.0000000       2.0000000
+DMQADFC          Served in a foreign country                 10175     -94.5943980      22.7904081    -100.0000000       2.0000000
+DMDBORN4         Country of birth                            10175       1.1378870       2.2763548    -100.0000000       2.0000000
+DMDCITZN         Citizenship status                          10175       0.9835872       3.3349225    -100.0000000       2.0000000
+DMDYRSUS         Length of time in US                        10175     -81.1842752      40.2992778    -100.0000000       9.0000000
+DMDEDUC3         Education level - Children/Youth 6-19       10175     -70.7544963      47.5305668    -100.0000000      99.0000000
+DMDEDUC2         Education level - Adults 20+                10175     -41.3817199      51.3103274    -100.0000000       5.0000000
+DMDMARTL         Marital status                              10175     -41.8983784      50.8279542    -100.0000000       6.0000000
+RIDEXPRG         Pregnancy status at exam                    10175     -86.8749877      34.1600107    -100.0000000       3.0000000
+SIALANG          Language of SP Interview                    10175       1.1056511       0.3074057       1.0000000       2.0000000
+SIAPROXY         Proxy used in SP Interview?                 10175       1.6207371       1.1171512    -100.0000000       2.0000000
+SIAINTRP         Interpreter used in SP Interview?           10175       1.9663882       0.1802366       1.0000000       2.0000000
+FIALANG          Language of Family Interview                10175      -0.1384767      10.9584427    -100.0000000       2.0000000
+FIAPROXY         Proxy used in Family Interview?             10175       0.7857494      11.0572208    -100.0000000       2.0000000
+FIAINTRP         Interpreter used in Family Interview?       10175       0.7564619      11.0552898    -100.0000000       2.0000000
+MIALANG          Language of MEC Interview                   10175     -27.3888943      45.4492246    -100.0000000       2.0000000
+MIAPROXY         Proxy used in MEC Interview?                10175     -26.7050614      45.8657389    -100.0000000       2.0000000
+MIAINTRP         Interpreter used in MEC Interview?          10175     -26.7145946      45.8488332    -100.0000000       2.0000000
+AIALANGA         Language of ACASI Interview                 10175     -37.2339066      49.0544517    -100.0000000       3.0000000
+DMDHHSIZ         Total number of people in the Household     10175       3.8746929       1.7221836       1.0000000       7.0000000
+DMDFMSIZ         Total number of people in the Family        10175       3.7304177       1.7750852       1.0000000       7.0000000
+DMDHHSZA         # of children 5 years or younger in HH      10175       0.5428993       0.8148311               0       3.0000000
+DMDHHSZB         # of children 6-17 years old in HH          10175       1.0083538       1.1930064               0       4.0000000
+DMDHHSZE         # of adults 60 years or older in HH         10175       0.3965602       0.7047314               0       3.0000000
+DMDHRGND         HH ref person's gender                      10175       1.4999509       0.5000246       1.0000000       2.0000000
+DMDHRAGE         HH ref person's age in years                10175      45.9577396      15.6355806      18.0000000      80.0000000
+DMDHRBR4         HH ref person's country of birth            10175      -1.5663882      17.2715363    -100.0000000      77.0000000
+DMDHREDU         HH ref person's education level             10175       0.5117445      17.3822709    -100.0000000       9.0000000
+DMDHRMAR         HH ref person's marital status              10175       1.4931695      12.6772135    -100.0000000      99.0000000
+DMDHSEDU         HH ref person's spouse's education level    10175     -45.6019656      51.7529781    -100.0000000       9.0000000
+WTINT2YR         Full sample 2 year interview weight         10175        30585.18        26948.43         3697.77       167884.54
+WTMEC2YR         Full sample 2 year MEC exam weight          10175        30585.18        27941.01               0       171395.26
+SDMVPSU          Masked variance pseudo-PSU                  10175       1.4841278       0.4997726       1.0000000       2.0000000
+SDMVSTRA         Masked variance pseudo-stratum              10175     110.9268796       4.2603220     104.0000000     118.0000000
+INDHHIN2         Annual household income                     10175       9.4355774      18.6744994    -100.0000000      99.0000000
+INDFMIN2         Annual family income                        10175       9.1701229      18.1585165    -100.0000000      99.0000000
+INDFMPIR         Ratio of family income to poverty           10175      -5.6365877      27.3303564    -100.0000000       5.0000000
+age20_plus                                                   10175       0.5669779       0.4955180               0       1.0000000
+LBXHA            Hepatitis A antibody                        10175     -17.6297789      39.6144933    -100.0000000       2.0000000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+data= C:\NHANES III\SAS\data\xpt\clean_nhanes: Compare results with Stata output.                                                                                                                                         11:25 Thursday, September 16, 2021   2
+
+The MEANS Procedure
+
+Variable         Label                                           N            Mean         Std Dev         Minimum         Maximum
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+dom_miliz                                                    10175       0.0533661       0.2247735               0       1.0000000
+ridageyrcat      Age in years at screening                   10175       3.7091892       2.3881813       1.0000000       8.0000000
+ridageyrcat2     Age in years at screening                   10175       2.1228501       1.1557685       1.0000000       4.0000000
+age_15_64_dom                                                10175       0.5242260       0.4994373               0       1.0000000
+ƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒƒ
+data= C:\NHANES III\SAS\data\xpt\clean_nhanes: Compare results with Stata output.                                                                                                                                         11:25 Thursday, September 16, 2021   3
+
+The CONTENTS Procedure
+
+Data Set Name        OUT.CLEAN_NHANES                          Observations          10175
+Member Type          DATA                                      Variables             53   
+Engine               V9                                        Indexes               0    
+Created              09/16/2021 11:26:45                       Observation Length    192  
+Last Modified        09/16/2021 11:26:45                       Deleted Observations  0    
+Protection                                                     Compressed            NO   
+Data Set Type                                                  Sorted                NO   
+Label                -savasas- created dataset on 16SEP2021                               
+Data Representation  WINDOWS_64                                                           
+Encoding             wlatin1  Western (Windows)                                           
+
+
+                     Engine/Host Dependent Information
+
+Data Set Page Size          65536                                           
+Number of Data Set Pages    31                                              
+First Data Page             1                                               
+Max Obs per Page            340                                             
+Obs in First Data Page      299                                             
+Number of Data Set Repairs  0                                               
+ExtendObsCounter            YES                                             
+Filename                    C:\NHANES III\SAS\data\xpt\clean_nhanes.sas7bdat
+Release Created             9.0401M3                                        
+Host Created                X64_8PRO                                        
+
+
+                           Alphabetic List of Variables and Attributes
+ 
+ #    Variable         Type    Len    Format            Label
+
+29    AIALANGA         Num       3    BEST8.            Language of ACASI Interview             
+13    DMDBORN4         Num       3    DMDBORN4F.        Country of birth                        
+14    DMDCITZN         Num       3    DMDCITZNF.        Citizenship status                      
+17    DMDEDUC2         Num       3    DMDEDUC2F.        Education level - Adults 20+            
+16    DMDEDUC3         Num       3    BEST8.            Education level - Children/Youth 6-19   
+31    DMDFMSIZ         Num       3    BEST8.            Total number of people in the Family    
+30    DMDHHSIZ         Num       3    BEST8.            Total number of people in the Household 
+32    DMDHHSZA         Num       3    BEST8.            # of children 5 years or younger in HH  
+33    DMDHHSZB         Num       3    BEST8.            # of children 6-17 years old in HH      
+34    DMDHHSZE         Num       3    BEST8.            # of adults 60 years or older in HH     
+36    DMDHRAGE         Num       3    BEST8.            HH ref person's age in years            
+37    DMDHRBR4         Num       3    BEST8.            HH ref person's country of birth        
+38    DMDHREDU         Num       3    BEST8.            HH ref person's education level         
+35    DMDHRGND         Num       3    BEST8.            HH ref person's gender                  
+39    DMDHRMAR         Num       3    BEST8.            HH ref person's marital status          
+40    DMDHSEDU         Num       3    BEST8.            HH ref person's spouse's education level
+18    DMDMARTL         Num       3    DMDMARTLF.        Marital status                          
+15    DMDYRSUS         Num       3    DMDYRSUSF.        Length of time in US                    
+12    DMQADFC          Num       3    DMQADFCF.         Served in a foreign country             
+11    DMQMILIZ         Num       3    DMQMILIZF.        Served active duty in US Armed Forces   
+25    FIAINTRP         Num       3    BEST8.            Interpreter used in Family Interview?   
+23    FIALANG          Num       3    BEST8.            Language of Family Interview            
+data= C:\NHANES III\SAS\data\xpt\clean_nhanes: Compare results with Stata output.                                                                                                                                         11:25 Thursday, September 16, 2021   4
+
+The CONTENTS Procedure
+
+                           Alphabetic List of Variables and Attributes
+ 
+ #    Variable         Type    Len    Format            Label
+
+24    FIAPROXY         Num       3    BEST8.            Proxy used in Family Interview?         
+46    INDFMIN2         Num       3    BEST8.            Annual family income                    
+47    INDFMPIR         Num       8    BEST10.           Ratio of family income to poverty       
+45    INDHHIN2         Num       3    BEST8.            Annual household income                 
+49    LBXHA            Num       3    LBXHAF.           Hepatitis A antibody                    
+28    MIAINTRP         Num       3    BEST8.            Interpreter used in MEC Interview?      
+26    MIALANG          Num       3    BEST8.            Language of MEC Interview               
+27    MIAPROXY         Num       3    BEST8.            Proxy used in MEC Interview?            
+ 4    RIAGENDR         Num       3    RIAGENDRF.        Gender                                  
+ 6    RIDAGEMN         Num       3    BEST8.            Age in months at screening - 0 to 24 mos
+ 5    RIDAGEYR         Num       3    BEST8.            Age in years at screening               
+10    RIDEXAGM         Num       4    BEST8.            Age in months at exam - 0 to 19 years   
+ 9    RIDEXMON         Num       3    RIDEXMONF.        Six month time period                   
+19    RIDEXPRG         Num       3    BEST8.            Pregnancy status at exam                
+ 7    RIDRETH1         Num       3    RIDRETH1F.        Race/Hispanic origin                    
+ 8    RIDRETH3         Num       3    BEST8.            Race/Hispanic origin w/ NH Asian        
+ 3    RIDSTATR         Num       3    RIDSTATRF.        Interview/Examination status            
+ 2    SDDSRVYR         Num       3    BEST8.            Data release cycle                      
+43    SDMVPSU          Num       3    BEST8.            Masked variance pseudo-PSU              
+44    SDMVSTRA         Num       4    BEST8.            Masked variance pseudo-stratum          
+ 1    SEQN             Num       6    BEST12.           Respondent sequence number              
+22    SIAINTRP         Num       3    BEST8.            Interpreter used in SP Interview?       
+20    SIALANG          Num       3    BEST8.            Language of SP Interview                
+21    SIAPROXY         Num       3    SIAPROXYF.        Proxy used in SP Interview?             
+41    WTINT2YR         Num       8    BEST10.           Full sample 2 year interview weight     
+42    WTMEC2YR         Num       8    BEST10.           Full sample 2 year MEC exam weight      
+48    age20_plus       Num       3    BEST8.                                                    
+53    age_15_64_dom    Num       8    BEST9.                                                    
+50    dom_miliz        Num       8    BEST9.                                                    
+51    ridageyrcat      Num       3    RIDAGEYRCAT.      Age in years at screening               
+52    ridageyrcat2     Num       3    RIDAGEYRCAT2_.    Age in years at screening               
+data= C:\NHANES III\SAS\data\xpt\clean_nhanes: Compare results with Stata output.                                                                                                                                         11:25 Thursday, September 16, 2021   5
+
+ 
+  Obs         SEQN SDDSRVYR             RIDSTATR              RIAGENDR RIDAGEYR RIDAGEMN      RIDRETH1      RIDRETH3          RIDEXMON           RIDEXAGM DMQMILIZ DMQADFC                DMDBORN4                             DMDCITZN
+
+    1        73557        8 Both interviewed and MEC examined  Male          69     -100 Non-Hispanic Black        4 November 1 through April 30     -100 Yes      Yes     Born in 50 US states or Washington, DC Citizen by birth or naturalization
+    2        73558        8 Both interviewed and MEC examined  Male          54     -100 Non-Hispanic White        3 November 1 through April 30     -100 No       Missing Born in 50 US states or Washington, DC Citizen by birth or naturalization
+    3        73559        8 Both interviewed and MEC examined  Male          72     -100 Non-Hispanic White        3 May 1 through October 31        -100 Yes      Yes     Born in 50 US states or Washington, DC Citizen by birth or naturalization
+    4        73560        8 Both interviewed and MEC examined  Male           9     -100 Non-Hispanic White        3 November 1 through April 30      119 Missing  Missing Born in 50 US states or Washington, DC Citizen by birth or naturalization
+    5        73561        8 Both interviewed and MEC examined  Female        73     -100 Non-Hispanic White        3 November 1 through April 30     -100 No       Missing Born in 50 US states or Washington, DC Citizen by birth or naturalization
+
+ 
+  Obs DMDYRSUS  DMDEDUC3  DMDEDUC2                                DMDMARTL   RIDEXPRG   SIALANG  SIAPROXY  SIAINTRP   FIALANG  FIAPROXY  FIAINTRP   MIALANG  MIAPROXY  MIAINTRP  AIALANGA  DMDHHSIZ  DMDFMSIZ  DMDHHSZA  DMDHHSZB  DMDHHSZE  DMDHRGND
+
+    1 Missing       -100  High school graduate/GED or equivalent  Separated      -100         1    No             2         1         2         2         1         2         2         1         3         3         0         0         2         1
+    2 Missing       -100  High school graduate/GED or equivalent  Married        -100         1    No             2         1         2         2         1         2         2         1         4         4         0         2         0         1
+    3 Missing       -100  Some college or AA degree               Married        -100         1    No             2         1         2         2         1         2         2      -100         2         2         0         0         2         1
+    4 Missing          3  Missing                                 Missing        -100         1    Yes            2         1         2         2         1         2         2         1         4         4         0         2         0         1
+    5 Missing       -100  College graduate or above               Married        -100         1    No             2         1         2         2         1         2         2      -100         2         2         0         0         2         1
+
+                                                                                                                                                              age20_                                                              age_15_
+  Obs DMDHRAGE    DMDHRBR4    DMDHREDU    DMDHRMAR    DMDHSEDU      WTINT2YR      WTMEC2YR     SDMVPSU    SDMVSTRA    INDHHIN2    INDFMIN2      INDFMPIR        plus     LBXHA      dom_miliz    ridageyrcat    ridageyrcat2       64_dom
+
+    1       69           1           3           4        -100    13281.2374    13481.0421           1         112           4           4          0.84           1    Positive            1       60-69          >= 60                0
+    2       54           1           3           1           1    23682.0574    24471.7696           1         108           7           7          1.78           1    Negative            0       50-59          40-59                1
+    3       72           1           4           1           3    57214.8033    57193.2854           1         109          10          10          4.51           1    Negative            1       >= 70          >= 60                0
+    4       33           1           3           1           4    55201.1786    55766.5124           2         109           9           9          2.52           0    Positive            0       < 10           < 20                 0
+    5       78           1           5           1           5    63709.6671    65541.8712           2         116          15          15             5           1    Negative            0       >= 70          >= 60                0
