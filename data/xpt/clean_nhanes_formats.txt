@@ -1,0 +1,86 @@
+
+ridageyrcat2_                    -100                   -100                    Missing
+ridageyrcat2_                    1                      1                       < 20
+ridageyrcat2_                    2                      2                       20-39
+ridageyrcat2_                    3                      3                       40-59
+ridageyrcat2_                    4                      4                       >= 60
+dmdborn4f                        -100                   -100                    Missing
+dmdborn4f                        1                      1                       Born in 50 US states or Washington, DC
+dmdborn4f                        2                      2                       Others
+dmdborn4f                        77                     77                      Refused
+dmdborn4f                        99                     99                      Dont Know
+dmdcitznf                        -100                   -100                    Missing
+dmdcitznf                        1                      1                       Citizen by birth or naturalization
+dmdcitznf                        2                      2                       Not a citizen of the US
+dmdcitznf                        7                      7                       Refused
+dmdcitznf                        9                      9                       Dont Know
+dmdeduc2f                        -100                   -100                    Missing
+dmdeduc2f                        1                      1                       Less than 9th grade
+dmdeduc2f                        2                      2                       9-11th grade (Includes 12th grade with no diploma)
+dmdeduc2f                        3                      3                       High school graduate/GED or equivalent
+dmdeduc2f                        4                      4                       Some college or AA degree
+dmdeduc2f                        5                      5                       College graduate or above
+dmdeduc2f                        7                      7                       Refused
+dmdeduc2f                        9                      9                       Dont Know
+dmdmartlf                        -100                   -100                    Missing
+dmdmartlf                        1                      1                       Married
+dmdmartlf                        2                      2                       Widowed
+dmdmartlf                        3                      3                       Divorced
+dmdmartlf                        4                      4                       Separated
+dmdmartlf                        5                      5                       Never married
+dmdmartlf                        6                      6                       Living with partner
+dmdmartlf                        77                     77                      Refused
+dmdmartlf                        99                     99                      Dont Know
+dmdyrsusf                        -100                   -100                    Missing
+dmdyrsusf                        1                      1                       Less than 1 year
+dmdyrsusf                        2                      2                       1 year or more, but less than 5 years
+dmdyrsusf                        3                      3                       5 year or more, but less than 10 years
+dmdyrsusf                        4                      4                       10 year or more, but less than 15 years
+dmdyrsusf                        5                      5                       15 year or more, but less than 20 years
+dmdyrsusf                        6                      6                       20 year or more, but less than 30 years
+dmdyrsusf                        7                      7                       30 year or more, but less than 40 years
+dmdyrsusf                        8                      8                       40 year or more, but less than 50 years
+dmdyrsusf                        9                      9                       50 years or more
+dmdyrsusf                        77                     77                      Refused
+dmdyrsusf                        99                     99                      Dont Know
+dmqadfcf                         -100                   -100                    Missing
+dmqadfcf                         1                      1                       Yes
+dmqadfcf                         2                      2                       No
+dmqadfcf                         7                      7                       Refused
+dmqadfcf                         9                      9                       Dont Know
+dmqmilizf                        -100                   -100                    Missing
+dmqmilizf                        1                      1                       Yes
+dmqmilizf                        2                      2                       No
+dmqmilizf                        7                      7                       Refused
+dmqmilizf                        9                      9                       Dont Know
+lbxhaf                           -100                   -100                    Missing
+lbxhaf                           1                      1                       Positive
+lbxhaf                           2                      2                       Negative
+lbxhaf                           3                      3                       Indeterminate
+riagendrf                        -100                   -100                    Missing
+riagendrf                        1                      1                       Male
+riagendrf                        2                      2                       Female
+ridexmonf                        -100                   -100                    Missing
+ridexmonf                        1                      1                       November 1 through April 30
+ridexmonf                        2                      2                       May 1 through October 31
+ridreth1f                        -100                   -100                    Missing
+ridreth1f                        1                      1                       Mexican American
+ridreth1f                        2                      2                       Other Hispanic
+ridreth1f                        3                      3                       Non-Hispanic White
+ridreth1f                        4                      4                       Non-Hispanic Black
+ridreth1f                        5                      5                       Other Race - Including Multi-Racial
+ridstatrf                        -100                   -100                    Missing
+ridstatrf                        1                      1                       Interviewed only
+ridstatrf                        2                      2                       Both interviewed and MEC examined
+siaproxyf                        -100                   -100                    Missing
+siaproxyf                        1                      1                       Yes
+siaproxyf                        2                      2                       No
+ridageyrcat                      -100                   -100                    Missing
+ridageyrcat                      1                      1                       < 10
+ridageyrcat                      2                      2                       10-19
+ridageyrcat                      3                      3                       20-29
+ridageyrcat                      4                      4                       30-39
+ridageyrcat                      5                      5                       40-49
+ridageyrcat                      6                      6                       50-59
+ridageyrcat                      7                      7                       60-69
+ridageyrcat                      8                      8                       >= 70
