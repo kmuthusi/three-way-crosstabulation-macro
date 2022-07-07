@@ -51,7 +51,7 @@ The user should specify input parameters described in the table below unless the
 
 A sample macro call program, `svy_freqs-analysis-file.sas`, is also provided as part of this repository.
 
-A manuscript describing more about the macro contents and usage is available online at: https://www.biorxiv.org/content/10.1101/771303v1
+A manuscript describing more about the macro contents and usage is available online at: https://openresearchsoftware.metajnl.com/articles/10.5334/jors.318/
 
 ## Public Domain
 This repository constitutes a work of the United States Government and is not
